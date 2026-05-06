@@ -56,7 +56,7 @@
     <!-- Navegación -->
     <nav class="fixed w-full z-50 glass">
         <div class="container mx-auto px-6 py-4 flex justify-between items-center">
-            <a href="#" class="text-2xl font-bold text-cyan tracking-tight"> portafolio<span class="text-white">.</span></a>
+            <a href="#" class="text-2xl font-bold text-cyan tracking-tight"> portafolio - <span class="text-white"> Ing. Juan Diego Vega Martinez</span></a>
             <div class="hidden md:flex space-x-8">
                 <a href="#sobre-mi" class="text-gray-300 hover:text-cyan transition-colors">Sobre mí</a>
                 <a href="#habilidades" class="text-gray-300 hover:text-cyan transition-colors">Habilidades</a>
@@ -287,10 +287,10 @@
                 <div class="md:w-1/2">
                     <h2 class="text-3xl font-bold mb-6 text-cyan">Sobre mí</h2>
                     <p class="text-gray-300 text-lg leading-relaxed mb-6">
-                        Soy un <strong>Ingeniero de Sistemas en formación</strong> con perfil multidisciplinario y mentalidad analítica. Busco una pasantía donde aplicar mi enfoque metódico y colaborativo para describir problemas y construir soluciones eficientes.
+                        Soy un <strong>Ingeniero de Sistemas en formación</strong> con experiencia en el desarrollo de aplicaciones web modernas, diseño de redes, implementación de soluciones de inteligencia artificial y modelado matemático-financiero. Me desempeño en crear experiencias digitales atractivas y funcionales.
                     </p>
                     <p class="text-gray-300 text-lg leading-relaxed mb-6">
-                        Me apasiona comprender sistemas completos, desde redes, IA, diseño hasta lógica de negocio. Siempre estoy dispuesto a aprender y enfrentar nuevos desafíos tecnológicos.
+                        Mi objetivo es aportar valor mediante la tecnología, resolviendo problemas complejos con código limpio, diseño elegante y arquitectura escalable.
                     </p>
                     <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-6">
                         <div class="text-center p-3 bg-dark-300 rounded-lg">
