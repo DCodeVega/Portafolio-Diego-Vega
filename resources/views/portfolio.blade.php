@@ -382,7 +382,7 @@
                         </div>
                     </div>
                     <div class="flex gap-4">
-                        <a href="mailto:escorpiotauro2015@gmail.com" class="w-10 h-10 flex items-center justify-center rounded-full bg-dark-300 text-gray-300 hover:bg-cyan hover:text-dark transition-colors">
+                        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=escorpiotauro2015@gmail.com" target="_blank" class="w-10 h-10 flex items-center justify-center rounded-full bg-dark-300 text-gray-300 hover:bg-cyan hover:text-dark transition-colors" title="Enviar correo vía Gmail">
                             <i class="fas fa-envelope"></i>
                         </a>
                         <a href="tel:70145646" class="w-10 h-10 flex items-center justify-center rounded-full bg-dark-300 text-gray-300 hover:bg-cyan hover:text-dark transition-colors">
@@ -390,6 +390,9 @@
                         </a>
                         <a href="https://wa.me/59170145646" target="_blank" class="w-10 h-10 flex items-center justify-center rounded-full bg-dark-300 text-gray-300 hover:bg-cyan hover:text-dark transition-colors">
                             <i class="fab fa-whatsapp"></i>
+                        </a>
+                        <a href="https://github.com/DCodeVega" target="_blank" class="w-10 h-10 flex items-center justify-center rounded-full bg-dark-300 text-gray-300 hover:bg-cyan hover:text-dark transition-colors">
+                            <i class="fab fa-github"></i>
                         </a>
                     </div>
                 </div>
@@ -504,7 +507,7 @@
                             <span class="px-2 py-1 bg-dark-400 rounded text-xs text-cyan">MySQL</span>
                         </div>
                         <div class="flex gap-4">
-                            <a href="#" class="text-gray-300 hover:text-cyan text-sm"><i class="fab fa-github mr-1"></i> Código</a>
+                            <a href="https://github.com/DCodeVega" target="_blank" class="text-gray-300 hover:text-cyan text-sm"><i class="fab fa-github mr-1"></i> Código</a>
                             <a href="#" class="text-gray-300 hover:text-cyan text-sm"><i class="fas fa-external-link-alt mr-1"></i> Demo</a>
                         </div>
                     </div>
@@ -526,7 +529,7 @@
                             <span class="px-2 py-1 bg-dark-400 rounded text-xs text-cyan">Raspberry Pi</span>
                         </div>
                         <div class="flex gap-4">
-                            <a href="#" class="text-gray-300 hover:text-cyan text-sm"><i class="fab fa-github mr-1"></i> Código</a>
+                            <a href="https://github.com/DCodeVega" target="_blank" class="text-gray-300 hover:text-cyan text-sm"><i class="fab fa-github mr-1"></i> Código</a>
                             <a href="#" class="text-gray-300 hover:text-cyan text-sm"><i class="fas fa-external-link-alt mr-1"></i> Demo</a>
                         </div>
                     </div>
@@ -548,7 +551,7 @@
                             <span class="px-2 py-1 bg-dark-400 rounded text-xs text-cyan">Docker</span>
                         </div>
                         <div class="flex gap-4">
-                            <a href="#" class="text-gray-300 hover:text-cyan text-sm"><i class="fab fa-github mr-1"></i> Código</a>
+                            <a href="https://github.com/DCodeVega" target="_blank" class="text-gray-300 hover:text-cyan text-sm"><i class="fab fa-github mr-1"></i> Código</a>
                             <a href="#" class="text-gray-300 hover:text-cyan text-sm"><i class="fas fa-external-link-alt mr-1"></i> Demo</a>
                         </div>
                     </div>
@@ -731,8 +734,10 @@
                 <div class="mt-12 text-center">
                     <p class="text-gray-400 mb-4">También puedes contactarme en:</p>
                     <div class="flex justify-center gap-6">
-                        <a href="mailto:escorpiotauro2015@gmail.com" class="text-gray-300 hover:text-cyan transition-colors text-2xl"><i class="fas fa-envelope"></i></a>
-                        <a href="tel:70145646" class="text-gray-300 hover:text-cyan transition-colors text-2xl"><i class="fas fa-phone"></i></a>
+                        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=escorpiotauro2015@gmail.com" target="_blank" class="text-gray-300 hover:text-cyan transition-colors text-2xl" title="Gmail"><i class="fas fa-envelope"></i></a>
+                        <a href="tel:70145646" class="text-gray-300 hover:text-cyan transition-colors text-2xl" title="Teléfono"><i class="fas fa-phone"></i></a>
+                        <a href="https://wa.me/59170145646" target="_blank" class="text-gray-300 hover:text-cyan transition-colors text-2xl" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                        <a href="https://github.com/DCodeVega" target="_blank" class="text-gray-300 hover:text-cyan transition-colors text-2xl" title="GitHub"><i class="fab fa-github"></i></a>
                     </div>
                     <div class="mt-6 p-4 bg-dark-300 rounded-lg inline-block">
                         <p class="text-gray-400 text-sm"><i class="fas fa-map-marker-alt text-cyan mr-2"></i>El Alto, La Paz, Bolivia</p>
