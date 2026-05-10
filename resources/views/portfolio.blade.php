@@ -349,10 +349,10 @@
     <section id="sobre-mi" class="py-20 bg-dark-200">
         <div class="container mx-auto px-6">
             <div class="flex flex-col md:flex-row items-center gap-12">
-                <div class="md:w-1/2">
+                <div class="md:w-1/2 flex justify-center">
                     <div class="relative">
-                        <div class="absolute -top-4 -left-4 w-24 h-24 border-4 border-cyan opacity-30 rounded-lg"></div>
-                        <img src="/images/Gemini_Generated_Image_de_JuanDiegoVega.png" alt="Foto de perfil" class="rounded-lg shadow-2xl border-2 border-cyan/20 w-80 h-80 object-cover">
+                        <div class="absolute -top-6 -left-6 w-32 h-32 border-4 border-cyan opacity-30 rounded-lg"></div>
+                        <img src="/images/Gemini_Generated_Image_de_JuanDiegoVega.png" alt="Foto de perfil" class="rounded-lg shadow-2xl border-2 border-cyan/20 w-[420px] h-[420px] object-cover">
                     </div>
                 </div>
                 <div class="md:w-1/2">
