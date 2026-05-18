@@ -338,53 +338,88 @@
     </section>
 
     <!-- Sobre mí -->
-    <section id="sobre-mi" class="py-20 bg-space-800/60 backdrop-blur-sm">
+    <section id="sobre-mi" class="py-24 relative z-10">
         <div class="container mx-auto px-6">
-            <div class="flex flex-col md:flex-row items-center gap-12">
-                <div class="md:w-1/2 flex justify-center">
-                    <div class="relative">
-                        <div class="absolute -top-6 -left-6 w-32 h-32 border-4 border-cyan opacity-30 rounded-lg"></div>
-                        <img src="/images/Gemini_Generated_Image_de_JuanDiegoVega.png" alt="Foto de perfil" class="rounded-lg shadow-2xl border-2 border-cyan/20 w-[420px] h-[420px] object-cover">
+            <!-- Decorative header -->
+            <div class="flex items-center gap-4 mb-16 justify-center">
+                <div class="h-px w-12 bg-gradient-to-r from-transparent to-cyan"></div>
+                <h2 class="text-4xl font-bold font-sans text-transparent bg-clip-text bg-gradient-to-r from-cyan to-accent">Sobre mí</h2>
+                <div class="h-px w-12 bg-gradient-to-l from-transparent to-accent"></div>
+            </div>
+
+            <div class="flex flex-col lg:flex-row items-center gap-16">
+                <!-- Imagen -->
+                <div class="lg:w-5/12 flex justify-center relative">
+                    <!-- Glowing back plates -->
+                    <div class="absolute inset-0 bg-gradient-to-tr from-accent to-cyan rounded-2xl blur-2xl opacity-20 animate-pulse"></div>
+                    <div class="relative glass-card p-2 rounded-2xl group cursor-pointer w-full max-w-sm">
+                        <!-- Imagen container con overflow -->
+                        <div class="overflow-hidden rounded-xl border border-white/10 relative">
+                            <div class="absolute inset-0 bg-gradient-to-t from-space-900/90 to-transparent z-10 pointer-events-none"></div>
+                            <img src="/images/Gemini_Generated_Image_de_JuanDiegoVega.png" alt="Juan Diego Vega" class="w-full h-auto aspect-square object-cover transform group-hover:scale-105 transition-transform duration-700 ease-out relative z-0">
+                            <!-- Floating badge overlay -->
+                            <div class="absolute bottom-4 left-4 z-20 flex items-center gap-2 glass px-3 py-1.5 rounded-full border border-cyan/30 text-sm">
+                                <span class="relative flex h-3 w-3">
+                                  <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-cyan opacity-75"></span>
+                                  <span class="relative inline-flex rounded-full h-3 w-3 bg-cyan"></span>
+                                </span>
+                                <span class="text-white font-medium tracking-wide">Disponible</span>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="md:w-1/2">
-                    <h2 class="text-3xl font-bold mb-6 text-cyan">Sobre mí</h2>
-                    <p class="text-gray-300 text-lg leading-relaxed mb-6">
-                        Soy un <strong>Ingeniero de Sistemas en formación</strong> con experiencia en el desarrollo de aplicaciones web modernas, diseño de redes, implementación de soluciones de inteligencia artificial y modelado matemático-financiero. Me desempeño en crear experiencias digitales atractivas y funcionales.
+
+                <!-- Contenido -->
+                <div class="lg:w-7/12">
+                    <h3 class="text-3xl font-bold mb-4 text-white font-sans">Hola, soy Juan Diego</h3>
+                    <p class="text-cyan font-medium tracking-wide uppercase text-sm mb-6 flex items-center gap-2">
+                        <i class="fas fa-satellite"></i> Ingeniero de Sistemas en Formación
                     </p>
-                    <p class="text-gray-300 text-lg leading-relaxed mb-6">
-                        Mi objetivo es aportar valor mediante la tecnología, resolviendo problemas complejos con código limpio, diseño elegante y arquitectura escalable.
-                    </p>
-                    <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-6">
-                        <div class="text-center p-3 bg-space-700/60 backdrop-blur-sm rounded-lg">
-                            <p class="text-cyan font-semibold">25 años</p>
-                            <p class="text-gray-500 text-sm">Edad</p>
+                    
+                    <div class="space-y-4 text-gray-300 font-light leading-relaxed mb-8">
+                        <p>
+                            Mi pasión radica en construir el futuro a través del código. Me desenvuelvo en la intersección entre el <strong class="text-white font-medium">desarrollo web moderno</strong>, la estructura sólida de <strong class="text-white font-medium">redes de computadoras</strong> y la innovación en <strong class="text-white font-medium">inteligencia artificial</strong>.
+                        </p>
+                        <p>
+                            Más que escribir líneas de código, busco resolver problemas complejos y aportar valor, creando arquitecturas escalables y experiencias digitales que se sientan como de otro planeta.
+                        </p>
+                    </div>
+
+                    <!-- Estadísticas en Grid -->
+                    <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-10">
+                        <div class="glass-card p-4 text-center group cursor-pointer hover:bg-space-800/50">
+                            <i class="fas fa-hourglass-half text-accent text-xl mb-2 group-hover:animate-spin"></i>
+                            <p class="text-white font-bold text-lg">25</p>
+                            <p class="text-gray-400 text-xs uppercase tracking-wider">Años</p>
                         </div>
-                        <div class="text-center p-3 bg-space-700/60 backdrop-blur-sm rounded-lg">
-                            <p class="text-cyan font-semibold">El Alto</p>
-                            <p class="text-gray-500 text-sm">Ubicación</p>
+                        <div class="glass-card p-4 text-center group cursor-pointer hover:bg-space-800/50">
+                            <i class="fas fa-map-marker-alt text-cyan text-xl mb-2 group-hover:animate-bounce"></i>
+                            <p class="text-white font-bold text-lg">El Alto</p>
+                            <p class="text-gray-400 text-xs uppercase tracking-wider">Ubicación</p>
                         </div>
-                        <div class="text-center p-3 bg-space-700/60 backdrop-blur-sm rounded-lg">
-                            <p class="text-cyan font-semibold">Español</p>
-                            <p class="text-gray-500 text-sm">Nativo</p>
+                        <div class="glass-card p-4 text-center group cursor-pointer hover:bg-space-800/50">
+                            <i class="fas fa-language text-pink-500 text-xl mb-2 group-hover:scale-110 transition-transform"></i>
+                            <p class="text-white font-bold text-lg">Español</p>
+                            <p class="text-gray-400 text-xs uppercase tracking-wider">Nativo</p>
                         </div>
-                        <div class="text-center p-3 bg-space-700/60 backdrop-blur-sm rounded-lg">
-                            <p class="text-cyan font-semibold">30%</p>
-                            <p class="text-gray-500 text-sm">Inglés</p>
+                        <div class="glass-card p-4 text-center group cursor-pointer hover:bg-space-800/50">
+                            <i class="fas fa-globe text-blue-400 text-xl mb-2 group-hover:animate-pulse"></i>
+                            <p class="text-white font-bold text-lg">30%</p>
+                            <p class="text-gray-400 text-xs uppercase tracking-wider">Inglés</p>
                         </div>
                     </div>
-                    <div class="flex gap-4">
-                        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=escorpiotauro2015@gmail.com" target="_blank" class="w-10 h-10 flex items-center justify-center rounded-full bg-space-700/60 backdrop-blur-sm text-gray-300 hover:bg-cyan hover:text-dark transition-colors" title="Enviar correo vía Gmail">
-                            <i class="fas fa-envelope"></i>
+
+                    <!-- Botones de Redes -->
+                    <div class="flex flex-wrap items-center gap-4">
+                        <span class="text-sm font-medium text-gray-400 mr-2 uppercase tracking-widest">Conectar:</span>
+                        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=escorpiotauro2015@gmail.com" target="_blank" class="w-12 h-12 flex items-center justify-center rounded-full glass border border-white/10 text-gray-300 hover:border-cyan hover:text-cyan hover:shadow-[0_0_15px_rgba(0,240,255,0.4)] transition-all duration-300 transform hover:-translate-y-1" title="Enviar correo">
+                            <i class="fas fa-envelope text-lg"></i>
                         </a>
-                        <a href="tel:70145646" class="w-10 h-10 flex items-center justify-center rounded-full bg-space-700/60 backdrop-blur-sm text-gray-300 hover:bg-cyan hover:text-dark transition-colors duration-300">
-                            <i class="fas fa-phone"></i>
+                        <a href="https://wa.me/59170145646" target="_blank" class="w-12 h-12 flex items-center justify-center rounded-full glass border border-white/10 text-gray-300 hover:border-green-400 hover:text-green-400 hover:shadow-[0_0_15px_rgba(74,222,128,0.4)] transition-all duration-300 transform hover:-translate-y-1" title="WhatsApp">
+                            <i class="fab fa-whatsapp text-lg"></i>
                         </a>
-                        <a href="https://wa.me/59170145646" target="_blank" class="w-10 h-10 flex items-center justify-center rounded-full bg-space-700/60 backdrop-blur-sm text-gray-300 hover:bg-cyan hover:text-dark transition-colors duration-300">
-                            <i class="fab fa-whatsapp"></i>
-                        </a>
-                        <a href="https://github.com/DCodeVega" target="_blank" class="w-10 h-10 flex items-center justify-center rounded-full bg-space-700/60 backdrop-blur-sm text-gray-300 hover:bg-cyan hover:text-dark transition-colors duration-300">
-                            <i class="fab fa-github"></i>
+                        <a href="https://github.com/DCodeVega" target="_blank" class="w-12 h-12 flex items-center justify-center rounded-full glass border border-white/10 text-gray-300 hover:border-purple-400 hover:text-purple-400 hover:shadow-[0_0_15px_rgba(192,132,252,0.4)] transition-all duration-300 transform hover:-translate-y-1" title="GitHub">
+                            <i class="fab fa-github text-lg"></i>
                         </a>
                     </div>
                 </div>
