@@ -6,9 +6,9 @@
 
 ---
 
-**Project:** MiPortafolio
-**Generated:** 2026-05-16 21:57:00
-**Category:** Portfolio/Personal
+**Project:** miportafolio
+**Generated:** 2026-05-18 16:12:09
+**Category:** Space Tech / Aerospace
 
 ---
 
@@ -28,14 +28,14 @@
 
 ### Typography
 
-- **Heading Font:** Caveat
-- **Body Font:** Quicksand
-- **Mood:** handwritten, personal, friendly, casual, warm, charming
-- **Google Fonts:** [Caveat + Quicksand](https://fonts.google.com/share?selection.family=Caveat:wght@400;500;600;700|Quicksand:wght@300;400;500;600;700)
+- **Heading Font:** Archivo
+- **Body Font:** Space Grotesk
+- **Mood:** minimal, portfolio, designer, creative, clean, artistic
+- **Google Fonts:** [Archivo + Space Grotesk](https://fonts.google.com/share?selection.family=Archivo:wght@300;400;500;600;700|Space+Grotesk:wght@300;400;500;600;700)
 
 **CSS Import:**
 ```css
-@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Quicksand:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@300;400;500;600;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
 ```
 
 ### Spacing Variables
@@ -153,13 +153,13 @@
 
 ## Style Guidelines
 
-**Style:** Motion-Driven
+**Style:** Vibrant & Block-based
 
-**Keywords:** Animation-heavy, microinteractions, smooth transitions, scroll effects, parallax, entrance anim, page transitions
+**Keywords:** Bold, energetic, playful, block layout, geometric shapes, high color contrast, duotone, modern, energetic
 
-**Best For:** Portfolio sites, storytelling platforms, interactive experiences, entertainment apps, creative, SaaS
+**Best For:** Startups, creative agencies, gaming, social media, youth-focused, entertainment, consumer
 
-**Key Effects:** Scroll anim (Intersection Observer), hover (300-400ms), entrance, parallax (3-5 layers), page transitions
+**Key Effects:** Large sections (48px+ gaps), animated patterns, bold hover (color shift), scroll-snap, large type (32px+), 200-300ms
 
 ### Page Pattern
 
@@ -173,8 +173,8 @@
 
 ## Anti-Patterns (Do NOT Use)
 
-- ❌ Corporate templates
-- ❌ Generic layouts
+- ❌ Flat design without depth
+- ❌ Text-heavy pages
 
 ### Additional Forbidden Patterns
 
