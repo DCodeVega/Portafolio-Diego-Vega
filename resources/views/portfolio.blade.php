@@ -280,7 +280,7 @@
     <!-- Navegación -->
     <nav class="fixed w-full z-50 glass">
         <div class="container mx-auto px-6 py-4 flex justify-between items-center">
-            <a href="#" class="text-2xl font-bold font-sans tracking-tight flex items-center gap-2"><i class="fas fa-meteor text-cyan"></i><span class="text-white">Juan Diego</span><span class="text-accent">Vega</span></a>
+            <a href="#" class="text-2xl font-bold font-sans tracking-tight flex items-center gap-2"><i class="fas fa-meteor text-cyan"></i><span class="text-white">Juan Diego</span><span class="text-accent">Vega Martinez</span></a>
             <div class="hidden md:flex space-x-2 items-center">
                 <a href="#sobre-mi" class="nav-link px-4 py-2 rounded-full text-sm font-medium text-gray-300 hover:text-cyan hover:bg-space-800/80 hover:shadow-[0_0_15px_rgba(0,240,255,0.4)] hover:border-cyan/50 border border-transparent transition-all duration-300 transform hover:-translate-y-0.5">Sobre mí</a>
                 <a href="#tecnologias" class="nav-link px-4 py-2 rounded-full text-sm font-medium text-gray-300 hover:text-cyan hover:bg-space-800/80 hover:shadow-[0_0_15px_rgba(0,240,255,0.4)] hover:border-cyan/50 border border-transparent transition-all duration-300 transform hover:-translate-y-0.5">Tecnologías</a>
@@ -351,14 +351,14 @@
                 <!-- Imagen -->
                 <div class="lg:w-5/12 flex justify-center relative">
                     <!-- Glowing back plates -->
-                    <div class="absolute w-3/4 h-3/4 top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-gradient-to-tr from-accent to-cyan rounded-2xl blur-2xl opacity-20 animate-pulse" style="animation-duration: 4s;"></div>
+                    <div class="absolute inset-0 bg-gradient-to-tr from-accent to-cyan rounded-2xl blur-2xl opacity-20 animate-pulse"></div>
                     <div class="relative glass-card p-2 rounded-2xl group cursor-pointer w-full max-w-sm">
                         <!-- Imagen container con overflow -->
                         <div class="overflow-hidden rounded-xl border border-white/10 relative">
                             <div class="absolute inset-0 bg-gradient-to-t from-space-900/90 to-transparent z-10 pointer-events-none"></div>
                             <img src="/images/Gemini_Generated_Image_de_JuanDiegoVega.png" alt="Juan Diego Vega" class="w-full h-auto aspect-square object-cover transform group-hover:scale-105 transition-transform duration-700 ease-out relative z-0">
                             <!-- Floating badge overlay -->
-                            <div class="absolute bottom-4 right-4 z-20 flex items-center gap-2 glass px-3 py-1.5 rounded-full border border-cyan/30 text-sm">
+                            <div class="absolute bottom-4 left-4 z-20 flex items-center gap-2 glass px-3 py-1.5 rounded-full border border-cyan/30 text-sm">
                                 <span class="relative flex h-3 w-3">
                                   <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-cyan opacity-75"></span>
                                   <span class="relative inline-flex rounded-full h-3 w-3 bg-cyan"></span>
@@ -394,7 +394,7 @@
                         </div>
                         <div class="glass-card p-4 text-center group cursor-pointer hover:bg-space-800/50">
                             <i class="fas fa-map-marker-alt text-cyan text-xl mb-2 group-hover:animate-bounce"></i>
-                            <p class="text-white font-bold text-lg">El Alto</p>
+                            <p class="text-white font-bold text-lg">El Alto, La Paz</p>
                             <p class="text-gray-400 text-xs uppercase tracking-wider">Ubicación</p>
                         </div>
                         <div class="glass-card p-4 text-center group cursor-pointer hover:bg-space-800/50">
@@ -404,7 +404,7 @@
                         </div>
                         <div class="glass-card p-4 text-center group cursor-pointer hover:bg-space-800/50">
                             <i class="fas fa-globe text-blue-400 text-xl mb-2 group-hover:animate-pulse"></i>
-                            <p class="text-white font-bold text-lg">30%</p>
+                            <p class="text-white font-bold text-lg">A2</p>
                             <p class="text-gray-400 text-xs uppercase tracking-wider">Inglés</p>
                         </div>
                     </div>
