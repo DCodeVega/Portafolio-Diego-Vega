@@ -351,14 +351,14 @@
                 <!-- Imagen -->
                 <div class="lg:w-5/12 flex justify-center relative">
                     <!-- Glowing back plates -->
-                    <div class="absolute inset-0 bg-gradient-to-tr from-accent to-cyan rounded-2xl blur-2xl opacity-20 animate-pulse"></div>
+                    <div class="absolute w-3/4 h-3/4 top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-gradient-to-tr from-accent to-cyan rounded-2xl blur-2xl opacity-20 animate-pulse" style="animation-duration: 4s;"></div>
                     <div class="relative glass-card p-2 rounded-2xl group cursor-pointer w-full max-w-sm">
                         <!-- Imagen container con overflow -->
                         <div class="overflow-hidden rounded-xl border border-white/10 relative">
                             <div class="absolute inset-0 bg-gradient-to-t from-space-900/90 to-transparent z-10 pointer-events-none"></div>
                             <img src="/images/Gemini_Generated_Image_de_JuanDiegoVega.png" alt="Juan Diego Vega" class="w-full h-auto aspect-square object-cover transform group-hover:scale-105 transition-transform duration-700 ease-out relative z-0">
                             <!-- Floating badge overlay -->
-                            <div class="absolute bottom-4 left-4 z-20 flex items-center gap-2 glass px-3 py-1.5 rounded-full border border-cyan/30 text-sm">
+                            <div class="absolute bottom-4 right-4 z-20 flex items-center gap-2 glass px-3 py-1.5 rounded-full border border-cyan/30 text-sm">
                                 <span class="relative flex h-3 w-3">
                                   <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-cyan opacity-75"></span>
                                   <span class="relative inline-flex rounded-full h-3 w-3 bg-cyan"></span>
