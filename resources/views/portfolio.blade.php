@@ -316,7 +316,7 @@
             </h1>
             
             <p class="text-gray-300 text-lg md:text-xl max-w-2xl mx-auto mb-10 font-light leading-relaxed">
-                Desarrollador apasionado por crear ecosistemas tecnológicos, desde la profundidad del backend hasta la brillantez de la interfaz de usuario.
+                Soy un desarrollador Full-Stack enfocado en la creación de aplicaciones web robustas, diseño de arquitecturas de red y optimización de procesos mediante Inteligencia Artificial.
             </p>
             
             <div class="flex flex-col md:flex-row justify-center gap-6 pt-4">
@@ -378,10 +378,10 @@
                     
                     <div class="space-y-4 text-gray-300 font-light leading-relaxed mb-8">
                         <p>
-                            Mi pasión radica en construir el futuro a través del código. Me desenvuelvo en la intersección entre el <strong class="text-white font-medium">desarrollo web moderno</strong>, la estructura sólida de <strong class="text-white font-medium">redes de computadoras</strong> y la innovación en <strong class="text-white font-medium">inteligencia artificial</strong>.
+                            Soy un desarrollador Full-Stack y futuro Ingeniero de Sistemas radicado en Bolivia, enfocado en la creación de ecosistemas web robustos y escalables. Cuento con experiencia práctica aplicando tecnologías modernas como <strong class="text-white font-medium">Laravel, Vue.js y Tailwind CSS</strong> para desarrollar experiencias digitales óptimas.
                         </p>
                         <p>
-                            Más que escribir líneas de código, busco resolver problemas complejos y aportar valor, creando arquitecturas escalables y experiencias digitales que se sientan como de otro planeta.
+                            Mi perfil técnico integral se complementa con habilidades sólidas en <strong class="text-white font-medium">Ciberseguridad Forense y diseño de Redes</strong>. Además, me especializo en automatizar procesos mediante <strong class="text-white font-medium">Inteligencia Artificial (Vibecoding)</strong> y aplicar modelado matemático-financiero para resolver problemas complejos con código limpio, diseño elegante y valor real.
                         </p>
                     </div>
 
