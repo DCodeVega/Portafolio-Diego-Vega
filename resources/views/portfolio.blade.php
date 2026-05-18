@@ -427,86 +427,128 @@
         </div>
     </section>
 
-    <!-- Habilidades -->
-    <section id="habilidades" class="py-20 bg-space-700/60 backdrop-blur-sm">
+    <!-- Tecnologías y Herramientas -->
+    <section id="habilidades" class="py-24 relative z-10 bg-space-800/40">
         <div class="container mx-auto px-6">
-            <h2 class="text-3xl font-bold text-center mb-12 text-cyan">Habilidades Técnicas</h2>
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <!-- Decorative header -->
+            <div class="flex items-center gap-4 mb-16 justify-center">
+                <div class="h-px w-12 bg-gradient-to-r from-transparent to-cyan"></div>
+                <h2 class="text-4xl font-bold font-sans text-transparent bg-clip-text bg-gradient-to-r from-cyan to-accent text-center">Tecnologías y herramientas</h2>
+                <div class="h-px w-12 bg-gradient-to-l from-transparent to-accent"></div>
+            </div>
+
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
                 <!-- Backend -->
-                <div class="glass-card p-6 group cursor-pointer">
-                    <div class="flex items-center mb-4">
-                        <i class="fas fa-code text-cyan text-2xl mr-3 group-hover:scale-110 transition-transform"></i>
-                        <h3 class="text-xl font-semibold">Backend</h3>
+                <div class="glass-card p-8 group">
+                    <div class="flex items-center gap-3 mb-8 border-b border-white/10 pb-4">
+                        <i class="fas fa-server text-cyan text-2xl group-hover:animate-pulse"></i>
+                        <h3 class="text-2xl font-semibold text-white font-sans">Backend</h3>
                     </div>
-                    <div class="flex flex-wrap gap-2">
-                        <span class="px-3 py-1 bg-space-600/80 rounded-full text-sm text-gray-300">PHP (Intermedio)</span>
-                        <span class="px-3 py-1 bg-space-600/80 rounded-full text-sm text-gray-300">Python (Intermedio)</span>
-                        <span class="px-3 py-1 bg-space-600/80 rounded-full text-sm text-gray-300">Java (Intermedio)</span>
-                    </div>
-                </div>
-                <!-- Desarrollo Web -->
-                <div class="glass-card p-6 group cursor-pointer">
-                    <div class="flex items-center mb-4">
-                        <i class="fas fa-globe text-cyan text-2xl mr-3 group-hover:scale-110 transition-transform"></i>
-                        <h3 class="text-xl font-semibold">Desarrollo Web</h3>
-                    </div>
-                    <div class="flex flex-wrap gap-2">
-                        <span class="px-3 py-1 bg-space-600/80 rounded-full text-sm text-gray-300">PHP & MySQL</span>
-                        <span class="px-3 py-1 bg-space-600/80 rounded-full text-sm text-gray-300">Bootstrap</span>
-                        <span class="px-3 py-1 bg-space-600/80 rounded-full text-sm text-gray-300">CSS3</span>
-                        <span class="px-3 py-1 bg-space-600/80 rounded-full text-sm text-gray-300">Laravel 10</span>
-                    </div>
-                </div>
-                <!-- Redes -->
-                <div class="glass-card p-6 group cursor-pointer">
-                    <div class="flex items-center mb-4">
-                        <i class="fas fa-network-wired text-cyan text-2xl mr-3 group-hover:scale-110 transition-transform"></i>
-                        <h3 class="text-xl font-semibold">Redes</h3>
-                    </div>
-                    <div class="flex flex-wrap gap-2">
-                        <span class="px-3 py-1 bg-space-600/80 rounded-full text-sm text-gray-300">TCP/IP</span>
-                        <span class="px-3 py-1 bg-space-600/80 rounded-full text-sm text-gray-300">IPv4/IPv6</span>
-                        <span class="px-3 py-1 bg-space-600/80 rounded-full text-sm text-gray-300">Cisco</span>
-                        <span class="px-3 py-1 bg-space-600/80 rounded-full text-sm text-gray-300">TP-Link</span>
-                        <span class="px-3 py-1 bg-space-600/80 rounded-full text-sm text-gray-300">LAN/WLAN</span>
+                    <div class="grid grid-cols-3 gap-4">
+                        <!-- PHP -->
+                        <div class="flex flex-col items-center justify-center p-4 rounded-xl bg-space-900/50 border border-white/5 hover:border-cyan/50 hover:bg-cyan/10 transition-all duration-300 transform hover:-translate-y-1">
+                            <i class="fab fa-php text-4xl text-[#777BB4] mb-3"></i>
+                            <span class="text-gray-300 text-sm font-medium tracking-wide">PHP</span>
+                        </div>
+                        <!-- Python -->
+                        <div class="flex flex-col items-center justify-center p-4 rounded-xl bg-space-900/50 border border-white/5 hover:border-cyan/50 hover:bg-cyan/10 transition-all duration-300 transform hover:-translate-y-1">
+                            <i class="fab fa-python text-4xl text-[#3776AB] mb-3"></i>
+                            <span class="text-gray-300 text-sm font-medium tracking-wide">Python</span>
+                        </div>
+                        <!-- Java -->
+                        <div class="flex flex-col items-center justify-center p-4 rounded-xl bg-space-900/50 border border-white/5 hover:border-cyan/50 hover:bg-cyan/10 transition-all duration-300 transform hover:-translate-y-1">
+                            <i class="fab fa-java text-4xl text-[#007396] mb-3"></i>
+                            <span class="text-gray-300 text-sm font-medium tracking-wide">Java</span>
+                        </div>
                     </div>
                 </div>
-                <!-- Git y Versionado -->
-                <div class="glass-card p-6 group cursor-pointer">
-                    <div class="flex items-center mb-4">
-                        <i class="fas fa-code-branch text-cyan text-2xl mr-3 group-hover:scale-110 transition-transform"></i>
-                        <h3 class="text-xl font-semibold">Control de Versiones</h3>
+
+                <!-- Frontend -->
+                <div class="glass-card p-8 group">
+                    <div class="flex items-center gap-3 mb-8 border-b border-white/10 pb-4">
+                        <i class="fas fa-laptop-code text-pink-400 text-2xl group-hover:animate-pulse"></i>
+                        <h3 class="text-2xl font-semibold text-white font-sans">Frontend</h3>
                     </div>
-                    <div class="flex flex-wrap gap-2">
-                        <span class="px-3 py-1 bg-space-600/80 rounded-full text-sm text-gray-300">Git</span>
-                        <span class="px-3 py-1 bg-space-600/80 rounded-full text-sm text-gray-300">GitHub</span>
-                        <span class="px-3 py-1 bg-space-600/80 rounded-full text-sm text-gray-300">Branching</span>
-                        <span class="px-3 py-1 bg-space-600/80 rounded-full text-sm text-gray-300">Merge</span>
+                    <div class="grid grid-cols-3 gap-4">
+                        <!-- HTML5 -->
+                        <div class="flex flex-col items-center justify-center p-4 rounded-xl bg-space-900/50 border border-white/5 hover:border-pink-500/50 hover:bg-pink-500/10 transition-all duration-300 transform hover:-translate-y-1">
+                            <i class="fab fa-html5 text-4xl text-[#E34F26] mb-3"></i>
+                            <span class="text-gray-300 text-sm font-medium tracking-wide">HTML</span>
+                        </div>
+                        <!-- CSS3 -->
+                        <div class="flex flex-col items-center justify-center p-4 rounded-xl bg-space-900/50 border border-white/5 hover:border-pink-500/50 hover:bg-pink-500/10 transition-all duration-300 transform hover:-translate-y-1">
+                            <i class="fab fa-css3-alt text-4xl text-[#1572B6] mb-3"></i>
+                            <span class="text-gray-300 text-sm font-medium tracking-wide">CSS</span>
+                        </div>
+                        <!-- JavaScript -->
+                        <div class="flex flex-col items-center justify-center p-4 rounded-xl bg-space-900/50 border border-white/5 hover:border-pink-500/50 hover:bg-pink-500/10 transition-all duration-300 transform hover:-translate-y-1">
+                            <i class="fab fa-js text-4xl text-[#F7DF1E] mb-3"></i>
+                            <span class="text-gray-300 text-sm font-medium tracking-wide">JavaScript</span>
+                        </div>
                     </div>
                 </div>
-                <!-- Diseño Gráfico -->
-                <div class="glass-card p-6 group cursor-pointer">
-                    <div class="flex items-center mb-4">
-                        <i class="fas fa-paint-brush text-cyan text-2xl mr-3 group-hover:scale-110 transition-transform"></i>
-                        <h3 class="text-xl font-semibold">Diseño Gráfico</h3>
+
+                <!-- Frameworks -->
+                <div class="glass-card p-8 group">
+                    <div class="flex items-center gap-3 mb-8 border-b border-white/10 pb-4">
+                        <i class="fas fa-cubes text-accent text-2xl group-hover:animate-pulse"></i>
+                        <h3 class="text-2xl font-semibold text-white font-sans">Frameworks</h3>
                     </div>
-                    <div class="flex flex-wrap gap-2">
-                        <span class="px-3 py-1 bg-space-600/80 rounded-full text-sm text-gray-300">Photoshop</span>
-                        <span class="px-3 py-1 bg-space-600/80 rounded-full text-sm text-gray-300">Edición de Imágenes</span>
-                        <span class="px-3 py-1 bg-space-600/80 rounded-full text-sm text-gray-300">Diseño UI</span>
+                    <div class="grid grid-cols-3 gap-4">
+                        <div class="flex flex-col items-center justify-center p-4 rounded-xl bg-space-900/50 border border-white/5 hover:border-accent/50 hover:bg-accent/10 transition-all duration-300 transform hover:-translate-y-1 text-center">
+                            <i class="fab fa-laravel text-4xl text-[#FF2D20] mb-3"></i>
+                            <span class="text-gray-300 text-xs font-medium tracking-wide">Laravel 12</span>
+                        </div>
+                        <div class="flex flex-col items-center justify-center p-4 rounded-xl bg-space-900/50 border border-white/5 hover:border-accent/50 hover:bg-accent/10 transition-all duration-300 transform hover:-translate-y-1 text-center">
+                            <i class="fab fa-vuejs text-4xl text-[#4FC08D] mb-3"></i>
+                            <span class="text-gray-300 text-xs font-medium tracking-wide">Vue.js</span>
+                        </div>
+                        <div class="flex flex-col items-center justify-center p-4 rounded-xl bg-space-900/50 border border-white/5 hover:border-accent/50 hover:bg-accent/10 transition-all duration-300 transform hover:-translate-y-1 text-center">
+                            <svg class="w-10 h-10 text-[#06B6D4] mb-3" fill="currentColor" viewBox="0 0 24 24"><path d="M12.001 4.8c-3.2 0-5.2 1.6-6 4.8 1.2-1.6 2.6-2.2 4.2-1.8.913.228 1.565.89 2.288 1.624C13.666 10.618 15.027 12 18.001 12c3.2 0 5.2-1.6 6-4.8-1.2 1.6-2.6 2.2-4.2 1.8-.913-.228-1.565-.89-2.288-1.624C16.337 6.182 14.976 4.8 12.001 4.8zm-8.4 7.2c-3.2 0-5.2 1.6-6 4.8 1.2-1.6 2.6-2.2 4.2-1.8.913.228 1.565.89 2.288 1.624 1.177 1.194 2.538 2.576 5.512 2.576 3.2 0 5.2-1.6 6-4.8-1.2 1.6-2.6 2.2-4.2 1.8-.913-.228-1.565-.89-2.288-1.624C7.937 13.382 6.576 12 3.601 12z"/></svg>
+                            <span class="text-gray-300 text-xs font-medium tracking-wide">Tailwind CSS</span>
+                        </div>
+                        <div class="flex flex-col items-center justify-center p-4 rounded-xl bg-space-900/50 border border-white/5 hover:border-accent/50 hover:bg-accent/10 transition-all duration-300 transform hover:-translate-y-1 text-center">
+                            <i class="fab fa-bootstrap text-4xl text-[#7952B3] mb-3"></i>
+                            <span class="text-gray-300 text-xs font-medium tracking-wide">Bootstrap</span>
+                        </div>
+                        <div class="flex flex-col items-center justify-center p-4 rounded-xl bg-space-900/50 border border-white/5 hover:border-accent/50 hover:bg-accent/10 transition-all duration-300 transform hover:-translate-y-1 text-center">
+                            <i class="fas fa-flask text-4xl text-gray-300 mb-3"></i>
+                            <span class="text-gray-300 text-xs font-medium tracking-wide">Flask</span>
+                        </div>
                     </div>
                 </div>
-                <!-- Otros -->
-                <div class="glass-card p-6 group cursor-pointer">
-                    <div class="flex items-center mb-4">
-                        <i class="fas fa-tools text-cyan text-2xl mr-3 group-hover:scale-110 transition-transform"></i>
-                        <h3 class="text-xl font-semibold">Otros</h3>
+
+                <!-- Herramientas -->
+                <div class="glass-card p-8 group">
+                    <div class="flex items-center gap-3 mb-8 border-b border-white/10 pb-4">
+                        <i class="fas fa-toolbox text-green-400 text-2xl group-hover:animate-pulse"></i>
+                        <h3 class="text-2xl font-semibold text-white font-sans">Herramientas</h3>
                     </div>
-                    <div class="flex flex-wrap gap-2">
-                        <span class="px-3 py-1 bg-space-600/80 rounded-full text-sm text-gray-300">Peritaje Forense</span>
-                        <span class="px-3 py-1 bg-space-600/80 rounded-full text-sm text-gray-300">QGIS</span>
-                        <span class="px-3 py-1 bg-space-600/80 rounded-full text-sm text-gray-300">Ofimática</span>
-                        <span class="px-3 py-1 bg-space-600/80 rounded-full text-sm text-gray-300">Metodologías</span>
+                    <div class="grid grid-cols-3 gap-4">
+                        <div class="flex flex-col items-center justify-center p-4 rounded-xl bg-space-900/50 border border-white/5 hover:border-green-400/50 hover:bg-green-400/10 transition-all duration-300 transform hover:-translate-y-1 text-center">
+                            <i class="fab fa-git-alt text-4xl text-[#F05032] mb-3"></i>
+                            <span class="text-gray-300 text-xs font-medium tracking-wide">Git</span>
+                        </div>
+                        <div class="flex flex-col items-center justify-center p-4 rounded-xl bg-space-900/50 border border-white/5 hover:border-green-400/50 hover:bg-green-400/10 transition-all duration-300 transform hover:-translate-y-1 text-center">
+                            <i class="fab fa-github text-4xl text-white mb-3"></i>
+                            <span class="text-gray-300 text-xs font-medium tracking-wide">GitHub</span>
+                        </div>
+                        <div class="flex flex-col items-center justify-center p-4 rounded-xl bg-space-900/50 border border-white/5 hover:border-green-400/50 hover:bg-green-400/10 transition-all duration-300 transform hover:-translate-y-1 text-center">
+                            <i class="fas fa-network-wired text-4xl text-[#049FD9] mb-3"></i>
+                            <span class="text-gray-300 text-xs font-medium tracking-wide">Cisco PT</span>
+                        </div>
+                        <div class="flex flex-col items-center justify-center p-4 rounded-xl bg-space-900/50 border border-white/5 hover:border-green-400/50 hover:bg-green-400/10 transition-all duration-300 transform hover:-translate-y-1 text-center">
+                            <i class="fas fa-map-marked-alt text-4xl text-[#589632] mb-3"></i>
+                            <span class="text-gray-300 text-xs font-medium tracking-wide">QGIS</span>
+                        </div>
+                        <div class="flex flex-col items-center justify-center p-4 rounded-xl bg-space-900/50 border border-white/5 hover:border-green-400/50 hover:bg-green-400/10 transition-all duration-300 transform hover:-translate-y-1 text-center">
+                            <i class="fas fa-palette text-4xl text-[#31A8FF] mb-3"></i>
+                            <span class="text-gray-300 text-xs font-medium tracking-wide">Photoshop</span>
+                        </div>
+                        <div class="flex flex-col items-center justify-center p-4 rounded-xl bg-space-900/50 border border-white/5 hover:border-green-400/50 hover:bg-green-400/10 transition-all duration-300 transform hover:-translate-y-1 text-center">
+                            <i class="fas fa-pen-nib text-4xl text-[#FF9A00] mb-3"></i>
+                            <span class="text-gray-300 text-xs font-medium tracking-wide">Illustrator</span>
+                        </div>
                     </div>
                 </div>
             </div>
