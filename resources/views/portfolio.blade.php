@@ -848,39 +848,31 @@
                             ¿Tienes un proyecto en mente o necesitas auditoría técnica? Abre un canal de comunicación seguro y responderé a la brevedad posible.
                         </p>
 
-                        <div class="space-y-6">
+                        <div class="flex flex-wrap gap-6 justify-center mt-8">
                             <!-- Email -->
-                            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=escorpiotauro2015@gmail.com" target="_blank" class="flex items-center gap-4 p-4 rounded-xl bg-space-800/50 border border-white/5 hover:border-cyan/50 hover:bg-cyan/10 transition-all group/item">
-                                <div class="w-12 h-12 rounded-full bg-space-900 flex items-center justify-center text-gray-400 group-hover/item:text-cyan group-hover/item:shadow-[0_0_15px_rgba(0,240,255,0.3)] transition-all">
-                                    <i class="fas fa-envelope text-xl"></i>
-                                </div>
-                                <div>
-                                    <p class="text-xs text-gray-500 font-semibold uppercase tracking-wider">Correo Seguro</p>
-                                    <p class="text-sm text-gray-300">escorpiotauro2015@gmail.com</p>
-                                </div>
+                            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=escorpiotauro2015@gmail.com" target="_blank" class="w-16 h-16 rounded-full bg-space-800/50 border border-white/10 flex items-center justify-center text-gray-400 hover:text-cyan hover:border-cyan hover:bg-cyan/10 hover:shadow-[0_0_20px_rgba(0,240,255,0.4)] transition-all duration-300 transform hover:-translate-y-2 group/item" title="escorpiotauro2015@gmail.com">
+                                <i class="fas fa-envelope text-3xl group-hover/item:scale-110 transition-transform"></i>
                             </a>
 
                             <!-- WhatsApp -->
-                            <a href="https://wa.me/59170145646" target="_blank" class="flex items-center gap-4 p-4 rounded-xl bg-space-800/50 border border-white/5 hover:border-green-400/50 hover:bg-green-400/10 transition-all group/item">
-                                <div class="w-12 h-12 rounded-full bg-space-900 flex items-center justify-center text-gray-400 group-hover/item:text-green-400 group-hover/item:shadow-[0_0_15px_rgba(74,222,128,0.3)] transition-all">
-                                    <i class="fab fa-whatsapp text-xl"></i>
-                                </div>
-                                <div>
-                                    <p class="text-xs text-gray-500 font-semibold uppercase tracking-wider">WhatsApp</p>
-                                    <p class="text-sm text-gray-300">+591 70145646</p>
-                                </div>
+                            <a href="https://wa.me/59170145646" target="_blank" class="w-16 h-16 rounded-full bg-space-800/50 border border-white/10 flex items-center justify-center text-gray-400 hover:text-green-400 hover:border-green-400 hover:bg-green-400/10 hover:shadow-[0_0_20px_rgba(74,222,128,0.4)] transition-all duration-300 transform hover:-translate-y-2 group/item" title="WhatsApp: +591 70145646">
+                                <i class="fab fa-whatsapp text-3xl group-hover/item:scale-110 transition-transform"></i>
                             </a>
 
-                            <!-- Ubicacion -->
-                            <div class="flex items-center gap-4 p-4 rounded-xl bg-space-800/50 border border-white/5">
-                                <div class="w-12 h-12 rounded-full bg-space-900 flex items-center justify-center text-accent">
-                                    <i class="fas fa-map-marker-alt text-xl"></i>
-                                </div>
-                                <div>
-                                    <p class="text-xs text-gray-500 font-semibold uppercase tracking-wider">Coordenadas Base</p>
-                                    <p class="text-sm text-gray-300">El Alto, La Paz, Bolivia</p>
-                                </div>
-                            </div>
+                            <!-- Telegram -->
+                            <a href="https://t.me/+59170145646" target="_blank" class="w-16 h-16 rounded-full bg-space-800/50 border border-white/10 flex items-center justify-center text-gray-400 hover:text-blue-400 hover:border-blue-400 hover:bg-blue-400/10 hover:shadow-[0_0_20px_rgba(96,165,250,0.4)] transition-all duration-300 transform hover:-translate-y-2 group/item" title="Telegram">
+                                <i class="fab fa-telegram-plane text-3xl group-hover/item:scale-110 transition-transform"></i>
+                            </a>
+
+                            <!-- Discord -->
+                            <a href="https://discordapp.com/users/592828100170219550" target="_blank" class="w-16 h-16 rounded-full bg-space-800/50 border border-white/10 flex items-center justify-center text-gray-400 hover:text-indigo-400 hover:border-indigo-400 hover:bg-indigo-400/10 hover:shadow-[0_0_20px_rgba(129,140,248,0.4)] transition-all duration-300 transform hover:-translate-y-2 group/item" title="Discord">
+                                <i class="fab fa-discord text-3xl group-hover/item:scale-110 transition-transform"></i>
+                            </a>
+
+                            <!-- GitHub -->
+                            <a href="https://github.com/DCodeVega" target="_blank" class="w-16 h-16 rounded-full bg-space-800/50 border border-white/10 flex items-center justify-center text-gray-400 hover:text-white hover:border-white hover:bg-white/10 hover:shadow-[0_0_20px_rgba(255,255,255,0.4)] transition-all duration-300 transform hover:-translate-y-2 group/item" title="GitHub">
+                                <i class="fab fa-github text-3xl group-hover/item:scale-110 transition-transform"></i>
+                            </a>
                         </div>
                     </div>
                 </div>
