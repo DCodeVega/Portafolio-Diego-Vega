@@ -311,12 +311,12 @@
             </div>
             
             <h1 class="text-5xl md:text-7xl font-bold mb-6 leading-tight font-sans">
-                Explorando el <br>
-                <span class="text-transparent bg-clip-text bg-gradient-to-r from-cyan to-accent">Universo Digital</span>
+                Para un Mundo <br>
+                <span class="text-transparent bg-clip-text bg-gradient-to-r from-cyan to-accent">en evolución</span>
             </h1>
             
             <p class="text-gray-300 text-lg md:text-xl max-w-2xl mx-auto mb-10 font-light leading-relaxed">
-                Soy un desarrollador Full-Stack enfocado en la creación de aplicaciones web robustas, diseño de arquitecturas de red y optimización de procesos mediante Inteligencia Artificial.
+                Automatización inteligente, ciberseguridad y diseño de sistemas escalables. La ingeniería de sistemas ya no es solo programar: es orquestar valor.
             </p>
             
             <div class="flex flex-col md:flex-row justify-center gap-6 pt-4">
@@ -338,7 +338,7 @@
     </section>
 
     <!-- Sobre mí -->
-    <section id="sobre-mi" class="py-24 relative z-10">
+    <section id="sobre-mi" class="py-24 relative z-10 bg-space-800/40">
         <div class="container mx-auto px-6">
             <!-- Decorative header -->
             <div class="flex items-center gap-4 mb-16 justify-center">
@@ -351,14 +351,16 @@
                 <!-- Imagen -->
                 <div class="lg:w-5/12 flex justify-center relative">
                     <!-- Glowing back plates -->
-                    <div class="absolute inset-0 bg-gradient-to-tr from-accent to-cyan rounded-2xl blur-2xl opacity-20 animate-pulse"></div>
+                    <!-- Código Modificado -->
+                    <div class="absolute w-1/2 h-1/2 top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-gradient-to-tr from-accent to-cyan rounded-full blur-3xl opacity-20 animate-pulse"></div>
+
                     <div class="relative glass-card p-2 rounded-2xl group cursor-pointer w-full max-w-sm">
                         <!-- Imagen container con overflow -->
                         <div class="overflow-hidden rounded-xl border border-white/10 relative">
                             <div class="absolute inset-0 bg-gradient-to-t from-space-900/90 to-transparent z-10 pointer-events-none"></div>
                             <img src="/images/Gemini_Generated_Image_de_JuanDiegoVega.png" alt="Juan Diego Vega" class="w-full h-auto aspect-square object-cover transform group-hover:scale-105 transition-transform duration-700 ease-out relative z-0">
                             <!-- Floating badge overlay -->
-                            <div class="absolute bottom-4 left-4 z-20 flex items-center gap-2 glass px-3 py-1.5 rounded-full border border-cyan/30 text-sm">
+                            <div class="absolute bottom-1 left-2/3 z-20 flex items-center gap-2 glass px-3 py-1.5 rounded-full border border-cyan/30 text-sm">
                                 <span class="relative flex h-3 w-3">
                                   <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-cyan opacity-75"></span>
                                   <span class="relative inline-flex rounded-full h-3 w-3 bg-cyan"></span>
@@ -371,14 +373,14 @@
 
                 <!-- Contenido -->
                 <div class="lg:w-7/12">
-                    <h3 class="text-3xl font-bold mb-4 text-white font-sans">Hola, soy Juan Diego</h3>
+                    <h3 class="text-3xl font-bold mb-4 text-white font-sans">Hola, soy Diego Vega</h3>
                     <p class="text-cyan font-medium tracking-wide uppercase text-sm mb-6 flex items-center gap-2">
                         <i class="fas fa-satellite"></i> Ingeniero de Sistemas en Formación
                     </p>
                     
                     <div class="space-y-4 text-gray-300 font-light leading-relaxed mb-8">
                         <p>
-                            Soy un desarrollador Full-Stack y futuro Ingeniero de Sistemas radicado en Bolivia, enfocado en la creación de ecosistemas web robustos y escalables. Cuento con experiencia práctica aplicando tecnologías modernas como <strong class="text-white font-medium">Laravel, Vue.js y Tailwind CSS</strong> para desarrollar experiencias digitales óptimas.
+                            Soy un desarrollador Full-Stack y futuro Ingeniero de Sistemas residente en Bolivia, enfocado en la creación de sistemas web robustos y escalables. Cuento con experiencia práctica aplicando tecnologías modernas como <strong class="text-white font-medium">Laravel, Vue.js y Tailwind CSS</strong> para desarrollar experiencias digitales óptimas.
                         </p>
                         <p>
                             Mi perfil técnico integral se complementa con habilidades sólidas en <strong class="text-white font-medium">Ciberseguridad Forense y diseño de Redes</strong>. Además, me especializo en automatizar procesos mediante <strong class="text-white font-medium">Inteligencia Artificial (Vibecoding)</strong> y aplicar modelado matemático-financiero para resolver problemas complejos con código limpio, diseño elegante y valor real.
